@@ -5,4 +5,11 @@ function removeChar(str){
     return str.slice(1,str.length-1);
   };
   
-  
+
+//   Return the type of the sum of the two argument
+
+function typeOfSum(a, b) {
+    let Sum = a + b;
+    return typeof Sum;
+  }
+
