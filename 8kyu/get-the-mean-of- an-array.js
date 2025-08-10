@@ -13,6 +13,6 @@ function getAverage(marks){
     for (let i = 0;  i < marks.length; i++){
         sum = sum + marks[i]
     }
-    average = Math.round(sum / marks.length)
+    average = Math.floor(sum / marks.length)
     return average
 }
