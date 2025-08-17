@@ -4,7 +4,7 @@
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-
+b
 //SOLUTION
 function solution(str){
     let str2 = ""
